@@ -23,22 +23,25 @@ Packaged as a shaded JAR (includes Jackson), so no external dependencies are nee
 ⸻
 
 📦 Build
-	1.	Clone this repo:
+
+1.	Clone this repo:
  
 ```
 git clone https://github.com/kullaisec/burp-http-exporter.git
 cd burp-http-exporter
 ```
 
-	2.	Build the shaded JAR with Maven:
-
+2.	Build the shaded JAR with Maven:
+ 
+```
 mvn -q -DskipTests clean package
+```
 
 
-	3.	The output will be:
-
+3.	The output will be:
+```
 target/burp-exporter-1.0.0-shaded.jar
-
+```
 
 
 ⸻
@@ -48,10 +51,11 @@ target/burp-exporter-1.0.0-shaded.jar
 	2.	Choose Extension Type: Java.
 	3.	Select the JAR:
 
+```
 target/burp-exporter-1.0.0-shaded.jar
+```
 
-
-	4.	A new tab HTTP Exporter will appear.
+4.	A new tab HTTP Exporter will appear.
 
 ⸻
 
